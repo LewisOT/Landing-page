@@ -29,25 +29,26 @@ body {
   justify-content: space-between;
   width: 100%;
   justify-content: center;
-  gap: 390px;
+  gap: 280px;
 }
 
 .nav-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 200px;
-  margin: 0 0 80px 0;
+  gap: 100px;
+  margin: 2% 0 80px 0;
 }
 
 .nav-content-container img {
-  width: 25%;
+  height: 80%;
+  width: 30%;
 }
 
 .nav-left-container {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
 }
 
 button {
@@ -93,6 +94,11 @@ main {
 .image-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.image-container p {
+  width: 80%;
 }
 
 .main-test-container {
@@ -140,6 +146,7 @@ main {
   justify-content: center;
   gap: 80px;
   border-radius: 5px;
+  padding: 2%;
 }
 
 .text-container {
@@ -153,6 +160,14 @@ main {
   width: 10%;
   align-self: center;
   border: 1px white solid;
+}
+
+.cta-text-container h4 {
+  margin-bottom: 0;
+}
+
+.cta-text-container p {
+  margin-top: 0;
 }
 
 ul {
